@@ -1,0 +1,137 @@
+Bienvenido A este curso de series temporales con Di Blair
+ni y Profeta.
+Mi nombre es Leire y seré tu instructora.
+A lo largo de este curso aprenderás de manera práctica
+y aplicada a entrenar modelos de Machín Berlín para predecir
+series temporales.
+Por tanto, es recomendable que tengas unos conocimientos
+mínimos acerca de las series temporales y de país.
+Son Al Finalizar este curso abres aprendido todo lo que
+necesitas saber para empleo, entrenar tus propias redes
+neuronales y modelos de profeta para predecir sus propias
+series temporales.
+A lo largo de este proyecto Trabajaremos con la plataforma
+Rain de pulsera En Rain A la derecha verás un vídeo
+explicativo y a la izquierda tendrás tu entorno de trabajo.
+Puedes modificar la visualización con las opciones de
+expandir y de cerrar.
+Nuestro entorno de trabajo se compone de la siguiente carpeta
+En el escritorio está que se llama Series temporales Dentro.
+De esta carpeta tenemos todos los no tus que
+necesitaremos a lo largo El proyecto Tenemos por un lado la
+parte más teórica con casos prácticos y después los
+ejercicios donde podrás poner a prueba lo que has aprendido.
+También tenemos la presentación en PDF que utilizaremos a lo
+largo de este proyecto y finalmente, los datos y las
+soluciones a los haber vicios.
+Ahora vamos a comenzar explicando un poco más acerca de las
+series temporales.
+Una serie de tiempo como su nombre indica, es una serie de
+puntos que se recopilan a lo largo del tiempo.
+Esta serie este punto se recopilan a lo largo de un periodo
+de tiempo definido, ya sea cada minuto, cada día o cada año.
+A diferencia de en los modelos de aprendizaje automático
+convencionales, En la producción de series temporales, es
+necesario guardar el orden del conjunto de datos.
+El orden de las observaciones proporciona una fuente de
+información adicional que debe analizarse y utilizarse en el
+proceso de previsión.
+Normalmente, para representar las series temporales
+utilizamos los gráficos de líneas donde en el eje de las XT
+Moore tenemos la variable de tiempo.
+En este caso serían los años y en el eje de la psicosis, la
+variable objetivo o la variable a predecir Además en base al
+número de variables que utilizaremos.
+Podemos de distinguir dos tipos de series temporales Tenemos
+las series temporales, un y variantes donde tenemos una única
+variable que varía en el tiempo Este sería el gráfico
+asociado.
+Y un ejemplo sería, por ejemplo, si quisiéramos Tratar de
+predecir la temperatura a lo largo de los días durante un año
+y despues tenemos los tipos de series temporales multi
+variante que, como su nombre indica en estos casos tenemos
+múltiples variables que varían con el tiempo Cada variable
+depende no sólo de sus valores pasa los, sino que también
+tiene cierta dependencia de otras variables.
+Esta dependencia se utiliza para pragmática rlos valores
+futuros Un ejemplo seria, pues, además de si queremos tratar
+de predecir La temperatura a lo largo de los días, pues que
+utilizaramos otros factores como puede ser la humedad, la
+velocidad del viento o cualquier otro factor meteorológico
+Esta sería la gráfica que representa una serie temporal multi
+variante Además cuando trabajemos con series temporales.
+Normalmente vamos a tener que analizar estos datos para
+tratar de identificar el modelo que mejor se ajuste al
+conjunto de datos Cuando.
+Analicemos las series temporales.
+Normalmente vamos a diferenciar o a dividir esta serie
+temporal en base a sus componentes Los componentes serían la
+tendencia, la estacionalidad y el ruido La tendencia es el
+movimiento constante hacia arriba o hacia abajo, a lo largo
+de un largo periodo Si.
+Apostamos una línea en el conjunto de datos y vemos que la
+pendiente es positiva.
+Estamos hablando de que tendríamos una tendencia al alza Si.
+Por el contrario, vemos que la pendiente es negativa, es
+decir, que tiende a disminuir.
+Tendríamos una tendencia decreciente La tendencia la podemos
+observar en este gráfico, En este caso de nuestra serie de
+temporal apreciamos claramente una tendencia al alza Después
+tenemos la estacionalidad.
+La estacionalidad indica si el aumento o la disminución de
+los datos es periódico, es decir, si se repite un patrón cada
+cierto periodo de tiempo Esto se puede analizar en este
+gráfico y podemos observar como claramente este conjunto de
+datos tiene una marcada estacionalidad.
+Tenemos este Estos pequeños picos y donde este pico mayor que
+compondrían un ciclo que se repite cada un periodo de tiempo
+definido y un periodo de tiempo concreto.
+Finalmente tenemos el último componente, que es el ruido.
+El ruido es el aumento o la disminución de los valores de los
+datos de manera aleatoria.
+Y es lo que podemos apreciar en esta última parte.
+Cuanto más ruido tengamos en nuestro conjunto de datos más
+difícil va a ser tratar de entrenar un modelo para apreciar
+datos futuros.
+En base a estos análisis que realicemos vamos a utilizar un
+tipo de modelo u otro para tratar de predecir valores futuros.
+Tenemos diferentes clases de modelos Cuando.
+Trabajamos con series temporales, tendríamos tres categorías
+principales Por un lado estarían los modelos clásicos o
+modelos estadísticos Dentro de esta categoría nos encontramos
+Los modelos de medias móviles suavizado exponencial.
+Los modelos de Harima, que es uno de los más conocidos
+También desanima o debate Después tendríamos el la categoría
+de modelos de aprendizaje automático implicarían todos los
+modelos utilizados en la revisión como fuese la revisión
+lineal, el X favor El dando Forés o cualquier modelo de
+regresión que esté especialmente modificado para series
+temporales.
+Hay que tener en cuenta que las series temporales necesitan
+de procesar Los datos de una determinada manera y también a
+la hora de entrenarse.
+Estos modelos tienen que tener una configuración específica.
+Finalmente tendríamos el conjunto modelos que pertenecen a la
+categoría de Ripley Jean o aprendizaje profundo.
+Dentro de esta categoría nos encontramos las redes neuronales
+recurrentes, las R N n y una mejora de estas redes, que
+serían las el este de En este proyecto nos centraremos en
+esta última categoría Las ventajas de los modelos de
+aprendizaje profundo es que son capaces de entrenarse
+Cualquier en casi cualquier tipo de serie temporal.
+Los modelos clásicos normalmente necesitan un programa
+pensamiento bastante grande del conjunto de datos.
+Tenemos que analizarlos y eliminar componentes como son la
+tendencia y la estacionalidad hasta que hayamos conseguido
+datos estacionarios.
+Este tipo de datos estacionarios son los menos habituales y
+son los únicos con los que podemos entrenar modelos clásicos
+estadísticos.
+A diferencia de los modelos estadísticos, las redes
+neuronales pueden entrenarse en cuáles en casi cualquier tipo
+de serie temporal Entre las ventajas de utilizar los modelos
+de Di Planning sería que necesitamos un gran cosa.
+Ahora que ya hemos aprendido algo más acerca de los de las
+series temporales, se acerca de los diferentes tipos de
+modelos En la próxima tarea comenzaremos a profundizar en los
+modelos de Blair ni aplicados a series temporales.
